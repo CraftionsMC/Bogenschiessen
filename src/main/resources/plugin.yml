@@ -2,4 +2,4 @@ name: Bogenschiessen
 version: ${project.version}
 main: net.craftions.bogenschiessen.Init
 api-version: 1.16
-depends: [JenkinsDeploy]
+depend: [JenkinsDeploy]

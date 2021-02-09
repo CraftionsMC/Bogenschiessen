@@ -48,25 +48,25 @@ public class Start {
 				{
 					for(Player p : Bukkit.getOnlinePlayers())
 					{
-						p.sendTitle("�4�lNoch 10 Sekunden", "");
+						p.sendTitle("§4§lNoch 10 Sekunden", "");
 					}
 				}else if(time == 3)
 				{
 					for(Player p : Bukkit.getOnlinePlayers())
 					{
-						p.sendTitle("�4�l3", "");
+						p.sendTitle("§4§l3", "");
 					}
 				}else if(time == 2)
 				{
 					for(Player p : Bukkit.getOnlinePlayers())
 					{
-						p.sendTitle("�4�l2", "");
+						p.sendTitle("§4§l2", "");
 					}
 				}else if(time == 1)
 				{
 					for(Player p : Bukkit.getOnlinePlayers())
 					{
-						p.sendTitle("�4�l1", "");
+						p.sendTitle("§4§l1", "");
 					}
 				}else if(time <= 0)
 				{
@@ -102,10 +102,10 @@ public class Start {
 				}
 			}
 		}
-		Bukkit.broadcastMessage("Gewonnen hat �e�l" + first.getName() + "�r mit �e�l" + firi + "�r Punkten!");
+		Bukkit.broadcastMessage("Gewonnen hat §e§l" + first.getName() + "§r mit §e§l" + firi + "§r Punkten!");
 		for(Player p : Bukkit.getOnlinePlayers())
 		{
-			p.sendTitle("�e�l" + first.getName(), "Hat das Spiel �aGEWONNEN!");
+			p.sendTitle("§e§l" + first.getName(), "Hat das Spiel §aGEWONNEN!");
 		}
 		Bukkit.getServer().getMessenger().registerOutgoingPluginChannel(Init.plugin, "BungeeCord");
 		Bukkit.getScheduler().scheduleSyncDelayedTask(Init.plugin, new Runnable() {

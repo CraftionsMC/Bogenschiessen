@@ -24,7 +24,7 @@ public class EventArrowHit implements Listener {
 					Vars.points.put((Player) e.getEntity().getShooter(), 1);
 				}
 				Player p = (Player) e.getEntity().getShooter();
-				p.sendMessage("[�a+�r]");
+				p.sendMessage("[§a+§r]");
 			}
 
 			if(e.getHitBlock().getType() == Material.WHITE_WOOL)
@@ -37,7 +37,7 @@ public class EventArrowHit implements Listener {
 					Vars.points.put((Player) e.getEntity().getShooter(), 2);
 				}
 				Player p = (Player) e.getEntity().getShooter();
-				p.sendMessage("[�a+�r]");
+				p.sendMessage("[§a+§r]");
 			}
 
 			if(e.getHitBlock().getType() == Material.RED_WOOL)
@@ -50,7 +50,7 @@ public class EventArrowHit implements Listener {
 					Vars.points.put((Player) e.getEntity().getShooter(), 5);
 				}
 				Player p = (Player) e.getEntity().getShooter();
-				p.sendMessage("[�a+�r]");
+				p.sendMessage("[§a+§r]");
 			}
 
 			if(e.getHitBlock().getType() == Material.BLACK_WOOL)
@@ -63,7 +63,7 @@ public class EventArrowHit implements Listener {
 					Vars.points.put((Player) e.getEntity().getShooter(), 10);
 				}
 				Player p = (Player) e.getEntity().getShooter();
-				p.sendMessage("[�a+�r]");
+				p.sendMessage("[§a+§r]");
 //				p.sendMessage("Du hast nun " + Vars.points.get(e.getEntity().getShooter()) + " Punkte!");
 			}
 			System.out.println(Vars.points.get(e.getEntity().getShooter()));
